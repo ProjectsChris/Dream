@@ -12,6 +12,7 @@ export class LoginPage implements OnInit {
   isDisabled: boolean = false;
 
   utente: Utente = {
+    email: '',
     nickname: '',
     password: ''
   }
