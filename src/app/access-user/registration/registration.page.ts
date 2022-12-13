@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Utente} from "../../model/utente";
 
 @Component({
   selector: 'app-registration',
@@ -6,10 +7,21 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./registration.page.scss'],
 })
 export class RegistrationPage implements OnInit {
+  isDisabled: boolean = true;
+
+  utente: Utente = {
+    email: '',
+    nickname: '',
+    password: ''
+  }
 
   constructor() { }
 
   ngOnInit() {
+  }
+
+  registrazioneUtente() {
+
   }
 
 }
