@@ -1,0 +1,43 @@
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#logo ion-img {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+#form-login {
+  position: relative;
+}
+
+ion-item.ios {
+  padding-right: 20px;
+}
+
+#forgot-password {
+  text-decoration: none;
+  margin-left: 20px;
+  margin-top: 10px;
+  display: block;
+  width: 170px;
+}
+
+#btnAccedi {
+  margin-top: 40px;
+  padding: 0 15px;
+}
+
+#newUser {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#newUser a {
+  text-decoration: none;
+}
