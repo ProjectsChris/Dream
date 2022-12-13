@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Utente} from "../../model/utente";
 
 @Component({
   selector: 'app-forgot-password',
@@ -6,9 +7,22 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./forgot-password.page.scss'],
 })
 export class ForgotPasswordPage implements OnInit {
+  utente: Utente = {
+    email: '',
+    nickname: '',
+    password: ''
+  };
+
+  isDisabled: boolean = true;
 
   constructor() { }
 
   ngOnInit() {
   }
+
+  setPassword() {
+
+  }
+
+
 }
